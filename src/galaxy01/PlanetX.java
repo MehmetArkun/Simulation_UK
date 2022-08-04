@@ -1,8 +1,19 @@
 package galaxy01;
 
 public class PlanetX {
+    public PlanetX() {
+        System.out.println("Contacted to her Majesty Queen El II");
+    }
+    public final void invade(){
+        System.out.println("Invasion of Planet X");
+    }
+
+
     public static void main(String[] args) {
-        System.out.println("Another class was added");
-        System.out.println("Contacted to the Queen");
+        PlanetX planet = new PlanetX();
+        planet.invade();
+
+
+
     }
 }
