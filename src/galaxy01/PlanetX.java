@@ -6,6 +6,10 @@ public class PlanetX {
 
     public PlanetX(String troopName) {
         this.troopName = troopName;
+        System.out.println("Contacted to her Majesty Queen El II");
+    }
+    public PlanetX() {
+        System.out.println("Contacted to her Majesty Queen El II");
     }
 
     public String getTroopName() {
@@ -17,9 +21,7 @@ public class PlanetX {
         this.troopName = troopName;
     }
 
-    public PlanetX() {
-        System.out.println("Contacted to her Majesty Queen El II");
-    }
+
     public final void invade(){
         System.out.println("Invasion of Planet X");
     }
